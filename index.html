@@ -25,6 +25,9 @@
     <!--====== Tailwind CSS ======-->
     <link rel="stylesheet" href="assets/css/tailwindcss.css">
 
+
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
 </head>
 
 <body>
@@ -536,7 +539,8 @@
                                             </div>
                                             <div class="pricing_content mt-6">
                                                 <span class="pricing_price font-bold text-black text-4xl">2000 XOF</span>
-                                                <p class="mt-4 leading-9"><span class="pricingtext font-semibold text-justify wspace">Cours scripts, audios et audiovisuels</span> <br>
+                                                <p class="mt-4 leading-9"><span class="pricingtext font-semibold text-justify wspace
+                                                    ">Cours scripts, audios et audiovisuels</span> <br>
                                                     <span>Support d'orientation postbac</span> <br>
                                                     <span>Professeur virtuel</span></p>
                                                 <a href="" class="main-btn pricing_btn">Choisir pack</a>
@@ -822,7 +826,7 @@
                         <!-- section title -->
 
                         <div class="contact_form">
-                            <form id="contact-form" action="assets/php/contact.php" method="POST">
+                            <form id="contact-form" action="https://send.pageclip.co/hlPNGRp7htsaVACZLkrlhdymr9240vLs" class="pageclip-form" method="POST">
                                 <div class="row">
                                     <div class="w-full md:w-1/2">
                                         <div class="mx-3">
@@ -852,7 +856,7 @@
                                     <div class="w-full">
                                         <div class="mx-3">
                                             <div class="single_form mt-8">
-                                                <button type="submit" class="main-btn contact-btn">Soumettre</button>
+                                                <button type="submit" class="main-btn contact-btn pageclip-form__submit">Soumettre</button>
                                             </div>
                                             <!-- single form -->
                                         </div>
@@ -862,6 +866,7 @@
                             </form>
                         </div>
                         <!-- contact form -->
+
                     </div>
                     <!-- contact wrapper -->
                 </div>
@@ -980,6 +985,9 @@
 
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+
+    <!--====== Page Clip js ======-->
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
 </body>
 
