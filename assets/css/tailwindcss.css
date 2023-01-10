@@ -15589,13 +15589,13 @@ button {
 
 @media (min-width: 960px) {
     .contact_image img {
-        max-width: 450px;
+        max-width: 500px;
         width: auto;
     }
 }
 
 .contact_image img {
-    max-width: 450px;
+    max-width: 500px;
 }
 
 .contact-btn {
